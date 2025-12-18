@@ -66,15 +66,30 @@ MinhChau Pharmacy Web là một dự án web được xây dựng nhằm **thự
 
 ---
 
-## ✨ Chức năng chính
+## 🔧 Phạm vi công việc & chức năng đã thực hiện
 
-* 🔐 Đăng ký & đăng nhập người dùng
-* 🛒 Trang bán hàng  
-  - Xây dựng giao diện (HTML, CSS)  
-  - Xử lý logic backend (ASP.NET, C#)
-* 🧺 Quản lý giỏ hàng
-* 💊 Quản lý sản phẩm
-* 🧾 Quản lý đơn hàng
-* 🗄️ Lưu trữ và xử lý dữ liệu bằng **SQL Server**
+### 📐 Phân tích & thiết kế hệ thống
+- Phân tích yêu cầu nghiệp vụ cho website bán thuốc
+- Xây dựng sơ đồ Use Case cho các nghiệp vụ chính (Đặt hàng, Thanh toán khi nhận hàng)
+- Đặc tả luồng xử lý bằng sơ đồ Activity
+- Thiết kế sơ đồ lớp mức phân tích và mức thiết kế
+- Thiết kế cơ sở dữ liệu và nhập liệu mẫu bằng SQL Server
+
+### ⚙️ Các chức năng đã xây dựng
+- 🔐 Đăng ký / đăng nhập người dùng
+- 🔁 Quên mật khẩu
+- 👤 Cập nhật thông tin khách hàng
+- 🔍 Tìm kiếm và tra cứu sản phẩm
+- 🛒 Quản lý giỏ hàng (thêm / sửa / xóa sản phẩm khi đã đăng nhập)
+- 📦 Đặt hàng và theo dõi trạng thái đơn hàng
+- ❌ Hủy đơn hàng
+- 💵 Thanh toán khi nhận hàng (COD)
+- 📉 Cập nhật số lượng tồn kho sau khi thanh toán
+- 🧾 Xuất hóa đơn
+- 📩 Chức năng liên hệ
+
+### 🗄️ Cơ sở dữ liệu
+- Lưu trữ và xử lý dữ liệu bằng **SQL Server**
+- Thiết kế các bảng chính phục vụ nghiệp vụ bán hàng (User, Product, Order, OrderDetail, Cart)
 
 ---
